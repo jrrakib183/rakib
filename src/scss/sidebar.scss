@@ -1,0 +1,23 @@
+
+
+ul {
+    padding: 30px;
+    li{ margin-bottom: 32px;
+        a{ font-size: 14px;
+            font-weight: 500;
+            color:#5F5F5F ;
+            svg {
+                display:inline-block;
+                margin-right: 12px;
+                path{fill: #5F5F5F;}
+        }
+      }
+      a:active{
+          color:var(--pi-primary);
+          background:#EDF2F7;
+          path{fill:var(--pi-primary);}
+
+      }
+    }
+}
+
